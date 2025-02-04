@@ -25,7 +25,7 @@ pipeline {
             }
             steps {
                 echo "Starting installation Liferay..."
-                // Здесь может быть команда для запуска ansible playbook, например:
+                // Здесь может быть команда для запуска ansible playbook, например:  
                 // sh "ansible-playbook install_liferay.yml -i inventory.ini"
                 echo "Liferay succesfully installed."
             }
